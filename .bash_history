@@ -287,3 +287,134 @@ vi Main.java
 docker ps -a
 cd /
 sudo shutdown 
+ls
+cd pythonProject/
+la
+cd flask-app-ecs/
+ls
+rm -v Dockerfile
+clear
+vi Dockerfile
+docker build -t flask-app .
+docker run -d -p 80:80 flask-app 
+docker ps
+docker logs 82740e62d46f
+xterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256color
+docker logs 82740e62d46f
+xterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256color
+docker ps
+docker attach 82740e62d46f
+qq
+docker ps
+docker exec -it 90b31f1ab171 bash
+cd ..
+ls
+git add 
+git add .
+ls
+ll
+git init
+ll
+git add .
+rm -rf javaHelloWorld/simple-java-docker/.git
+rm -rf pythonProject/flask-app-ecs/.git
+git add .
+git status
+git commit -m "added projects"
+git push origin main
+create mode 160000 javaHelloWorld/simple-java-docker
+create mode 160000 pythonProject/flask-app-ecs
+git rm --cached -r javaHelloWorld/simple-java-docker
+git rm --cached -r pythonProject/flask-app-ecs
+git add javaHelloWorld/simple-java-docker
+git add pythonProject/flask-app-ecs
+git commit -m "fixed submodules to normal folders"
+git push origin main
+git push -u origin master
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/himanshu-10/Leran-Docker.git
+git push -u origin master
+git branch -M main
+git push -u origin main
+git remote set-url origin https://himanshu-10@github.com/himanshu-10/Learn-Docker.git
+git push -u origin main
+git remote set-url origin https://github.com/himanshu-10/Leran-Docker.git
+git push -u origin main
+git push -u origin main --force
+sudo shutdown
+date
+docker images
+df -h
+docker ps
+docker stop 82740e62d46f
+docker start 82740e62d46f
+docker stop 82740e62d46f
+docker ps -a
+docker start 90b31f1ab171
+docker ps 
+ls
+cd javaHelloWorld/
+ls
+cd simple-java-docker/
+l
+clear
+df -h
+docker ps -a
+docker images
+docker start 90b31f1ab171
+docker ps
+docker images
+clear
+docker run -d -p 5000:5000 -e MYSQL_HOST=mysql -e  MYSQL_USER=root -e MYSQL_PASSWORD=root -e MYSQL_DB=devops two_tier_backend:latest 
+docker ps 
+docker ps -a
+docker ps
+docker stop 90b31f1ab171
+docker rm 90b31f1ab171
+docker ps -a
+docker ps
+docker logs 6c02119600e2
+docker network ls
+docker inspect two_tier
+clear
+docker ps -a
+docker logs
+docker logs 5cdf6a01dba9
+last
+last head -10
+clear
+df -h
+docker ps -a
+docker images
+clear
+docker network ks
+docker network ls
+clear
+docker network create mynetwork -d bridge
+docker netwrok ls
+docker network ls
+clear
+mkdir miniProject
+cd miniProject/
+git clone https://github.com/LondheShubham153/two-tier-flask-app.git
+ll
+cd two-tier-flask-app/
+ll
+clear
+ll
+rm -v Dockerfile
+vi Dockerfile
+clear
+ls
+docker build -t two_tier_backend .
+vi Dockerfile
+docker build -t two_tier_backend .
+docker ps
+docker network create two_tier -d bridge
+docker run -d --name mysql --netwrok two_tier -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=devops mysql 
+docker run -d --name mysql --network two_tier -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=devops mysql 
+docker ps 
+docker exec -itd bash
+docker exec -it mysql bash
+sudo shutdown
